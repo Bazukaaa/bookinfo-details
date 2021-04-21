@@ -1,6 +1,6 @@
 details:
-  namespace: student14-bookinfo-uat
-  image: ghcr.io/jakkapongqcue/bookinfo-details
+  namespace: student128-bookinfo-uat
+  image: ghcr.io/bazukaaa/bookinfo-details
   tag: uat
   replicas: 1
   imagePullSecrets: registry-bookinfo
@@ -12,5 +12,5 @@ ingress:
     kubernetes.io/ingress.class: nginx
     nginx.ingress.kubernetes.io/rewrite-target: /$2
   host: bookinfo.uat.opsta.net
-  path: "/student14/details(/|$)(.*)"
+  path: "/student128/details(/|$)(.*)"
   serviceType: ClusterIP
