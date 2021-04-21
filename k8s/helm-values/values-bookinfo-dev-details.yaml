@@ -1,5 +1,9 @@
 details:
+<<<<<<< HEAD
   namespace: student128-bookinfo-dev
+=======
+  namespace: student128/-bookinfo-dev
+>>>>>>> 3b60fb75189053fa5ac1baf755e576f5207f960e
   image: ghcr.io/bazukaaa/bookinfo-details
   tag: dev
   replicas: 1
